@@ -1,0 +1,19 @@
+{
+  "name": "wp-vue",
+  "version": "1.0.0",
+  "description": "webpack的一些vue配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1598692232/wp-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1598692232/wp-vue/issues"
+  },
+  "homepage": "https://github.com/1598692232/wp-vue#readme"
+}
