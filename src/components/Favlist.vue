@@ -1,15 +1,18 @@
 <template>
     <div>
-        <div v-for="n in list">div</div>
+        <div v-for="n in list">{{n}}</div>
     </div>
 </template>
 
 <script>
+    'use strict'
     export default {
-        data () {
-            return {
-                list: [1,2,3],
-                msg: 'Hello World!'
+
+        data(){
+            return{
+                list:[344,2,3],
+                msg:
+                        "Hello World!"
             }
         }
     }

@@ -5,6 +5,6 @@ import Vue from 'vue'
 import Favlist from '../src/components/Favlist'
 
 new Vue({
-	el: '#App',
-	components: { Favlist }
+	el:'#App',
+	components:{ Favlist }
 })

@@ -22,7 +22,7 @@ config.plugins = [
 ];
 
 // 动态向入口配置中注入 webpack-hot-middleware/client
-var devClient = './config/dev-client';
+var devClient = './conf/dev-client';
 Object.keys(config.entry).forEach(function (name, i) {
 	var extras = [devClient]
 	config.entry[name] = extras.concat(config.entry[name])
